@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    background: radial-gradient(at 400px 200px, white, black);
+    background-size: cover;
+} 
+
+.calculator {
+  position: fixed; 
+  top: 50%; 
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+input {
+    border-radius: 5px;
+}
+
+.displayClass {
+    box-shadow: 5px -2px 10px 1px lightgrey;
+    background: linear-gradient(to bottom right, silver, lavender); 
+    border: 5px solid black;
+    margin-bottom: 5px;
+    height: 45px;
+    text-align: right;
+    width: 255px;
+    font-size: 180%
+}
+
+.button {
+    font-size: 15px;
+    box-shadow: 2px -2px 10px 1px darkgray;
+    background: linear-gradient(to bottom right, gray, lavender);; 
+    margin-bottom: 5px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+.centr {
+    width: 50px ;
+}
+
+.but0 {
+    width: 104px;
+}
+
+.butBackspace {
+    width: 158px;
+}
+
+.butPower {
+    font-size: 17px;
+}
+
+.equalsButton {
+    position: fixed;
+    margin-left: 4px;
+    height : 160px;
+}
+
+#butsqrt {
+    font-size: 18px;
+}
